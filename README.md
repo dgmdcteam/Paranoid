@@ -1,2 +1,0 @@
-# Paranoid
-Juego Paranoid
