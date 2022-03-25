@@ -1,0 +1,5 @@
+♦Recabar información para ayudar a Laura.
+	♠Modelaje.
+	♠Huesos.
+♦Recabar información para ayudar a Sergio.
+	♠Creación de ventanas (en especial con ProBuilder).

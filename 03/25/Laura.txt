@@ -1,0 +1,3 @@
+♦Lleva alrededor de un 5% del modelado del cuerpo del enemigo.
+♦Estuvo recabando información sobre modelado en blender y huesos.
+♣Los huesos se dejan para lo último/antes de la tarea "Color".
