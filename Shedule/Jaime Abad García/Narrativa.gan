@@ -37,7 +37,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Explicita" color="#ff9900" meeting="false" start="2022-03-21" duration="4" complete="0" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Explicita" color="#ff9900" meeting="false" start="2022-03-21" duration="4" complete="2" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true">
             <depend id="4" type="2" difference="1" hardness="Strong"/>
         </task>
         <task id="4" name="Implicita" color="#ff9900" meeting="false" start="2022-03-28" duration="4" complete="0" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">

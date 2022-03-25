@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-04-22" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3220" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-03-17" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3220" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="200" order="0"/>
@@ -37,14 +37,14 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Narrativa" color="#ff6600" meeting="false" start="2022-03-21" duration="14" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="0" name="Narrativa" color="#ff6600" meeting="false" start="2022-03-21" duration="14" complete="2" thirdDate="2022-03-07" thirdDate-constraint="0" priority="2" expand="true"/>
         <task id="1" name="Desarrollo Software" color="#9933ff" meeting="false" start="2022-03-28" duration="44" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
         <task id="2" name="Mundo" color="#00ff99" meeting="false" start="2022-03-21" duration="44" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[♦Jaime Abad García tocará partes del mundo para mejorar algunas de las mecánicas en caso de ser necesario, comunincado dichos cambios al responsable/coordinador de la tarea en cuestión.]]>
             </notes>
         </task>
-        <task id="3" name="Personajes" color="#00ffff" meeting="false" start="2022-03-21" duration="24" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="3" name="Personajes" color="#00ffff" meeting="false" start="2022-03-21" duration="39" complete="2" thirdDate="2022-03-07" thirdDate-constraint="0" priority="2" expand="true"/>
         <task id="4" name="Investigación" color="#ffff00" meeting="false" start="2022-03-21" duration="44" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
         <task id="6" name="Testing" color="#d4d0c8" meeting="false" start="2022-05-23" duration="4" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
         <task id="5" name="Markteing" color="#666600" meeting="false" start="2022-05-23" duration="6" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>

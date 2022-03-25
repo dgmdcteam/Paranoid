@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-04-20" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3220" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-03-24" view-index="0" gantt-divider-location="386" resource-divider-location="300" version="3.2.3220" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="200" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="69" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="81" order="2"/>
+        <field id="tpd5" name="Fecha de fin" width="116" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#00ffff]]>
@@ -37,10 +37,10 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Modelado Cara" color="#00ffff" meeting="false" start="2022-03-21" duration="4" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Modelado Cuerpo" color="#00ffff" meeting="false" start="2022-03-21" duration="4" complete="5" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
             <depend id="2" type="2" difference="1" hardness="Strong"/>
         </task>
-        <task id="2" name="Modelado Cuerpo" color="#00ffff" meeting="false" start="2022-03-28" duration="4" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+        <task id="2" name="Modelado Cara" color="#00ffff" meeting="false" start="2022-03-28" duration="4" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
             <depend id="11" type="2" difference="1" hardness="Strong"/>
         </task>
         <task id="11" name="Modelado Brazos" color="#00ffff" meeting="false" start="2022-04-04" duration="2" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
