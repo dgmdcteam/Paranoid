@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 0c57683c1bd936f4b900720259f87df1
+=======
 guid: 3388a4704f3a5214e9b3530a72c130cb
+>>>>>>> parent of 196bf0b9 (Proyecto base)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
