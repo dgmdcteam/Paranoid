@@ -1,7 +1,11 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_FilePath: D:/Proyectos/Github/Paranoid/Packages/manifest.json
+=======
+    m_FilePath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages/manifest.json
+>>>>>>> Stashed changes
 =======
     m_FilePath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages/manifest.json
 >>>>>>> Stashed changes
@@ -9,6 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       ticks: 637846864315875372
     m_Hash: 1134081949
@@ -20,13 +25,24 @@ m_ProjectFiles:
   m_LockFileStatus:
     m_FilePath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages/packages-lock.json
 >>>>>>> Stashed changes
+=======
+      ticks: 637858995362894782
+    m_Hash: 2330931563
+  m_LockFileStatus:
+    m_FilePath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages/packages-lock.json
+>>>>>>> Stashed changes
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 637846864316550630
     m_Hash: 387206671
+=======
+      ticks: 637858995362954625
+    m_Hash: 1886048298
+>>>>>>> Stashed changes
 =======
       ticks: 637858995362954625
     m_Hash: 1886048298
@@ -201,7 +217,11 @@ m_PackageAssets:
       version: 1.15.4
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.collab-proxy@1.15.4
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.collab-proxy@1.15.4
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.collab-proxy@1.15.4
 >>>>>>> Stashed changes
@@ -358,7 +378,11 @@ m_PackageAssets:
       version: 2.0.7
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.rider@2.0.7
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.rider@2.0.7
 >>>>>>> Stashed changes
@@ -477,7 +501,11 @@ m_PackageAssets:
       version: 2.0.12
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
 >>>>>>> Stashed changes
@@ -574,7 +602,11 @@ m_PackageAssets:
       version: 1.2.4
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.ide.vscode@1.2.4
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.vscode@1.2.4
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ide.vscode@1.2.4
 >>>>>>> Stashed changes
@@ -651,7 +683,11 @@ m_PackageAssets:
       version: 4.5.2
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.probuilder@4.5.2
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.probuilder@4.5.2
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.probuilder@4.5.2
 >>>>>>> Stashed changes
@@ -797,7 +833,11 @@ m_PackageAssets:
       version: 3.0.3-preview.6
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
 >>>>>>> Stashed changes
@@ -992,7 +1032,11 @@ m_PackageAssets:
       version: 1.1.29
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.test-framework@1.1.29
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.test-framework@1.1.29
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.test-framework@1.1.29
 >>>>>>> Stashed changes
@@ -1095,7 +1139,11 @@ m_PackageAssets:
       version: 3.0.6
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.textmeshpro@3.0.6
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.textmeshpro@3.0.6
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.textmeshpro@3.0.6
 >>>>>>> Stashed changes
@@ -1265,7 +1313,11 @@ m_PackageAssets:
       version: 1.4.8
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.timeline@1.4.8
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.timeline@1.4.8
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.timeline@1.4.8
 >>>>>>> Stashed changes
@@ -1435,7 +1487,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.ugui@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ugui@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ugui@1.0.0
 >>>>>>> Stashed changes
@@ -1502,7 +1558,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.ai@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.ai@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.ai@1.0.0
 >>>>>>> Stashed changes
@@ -1554,7 +1614,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.androidjni@1.0.0
 >>>>>>> Stashed changes
@@ -1606,7 +1670,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.animation@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.animation@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.animation@1.0.0
 >>>>>>> Stashed changes
@@ -1658,7 +1726,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
 >>>>>>> Stashed changes
@@ -1710,7 +1782,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.audio@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.audio@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.audio@1.0.0
 >>>>>>> Stashed changes
@@ -1762,7 +1838,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.cloth@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.cloth@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.cloth@1.0.0
 >>>>>>> Stashed changes
@@ -1818,7 +1898,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.director@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.director@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.director@1.0.0
 >>>>>>> Stashed changes
@@ -1878,7 +1962,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
 >>>>>>> Stashed changes
@@ -1931,7 +2019,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.imgui@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.imgui@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.imgui@1.0.0
 >>>>>>> Stashed changes
@@ -1983,7 +2075,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
 >>>>>>> Stashed changes
@@ -2035,7 +2131,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
 >>>>>>> Stashed changes
@@ -2087,7 +2187,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.physics@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.physics@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.physics@1.0.0
 >>>>>>> Stashed changes
@@ -2139,7 +2243,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.physics2d@1.0.0
 >>>>>>> Stashed changes
@@ -2191,7 +2299,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.screencapture@1.0.0
 >>>>>>> Stashed changes
@@ -2247,7 +2359,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.terrain@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.terrain@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.terrain@1.0.0
 >>>>>>> Stashed changes
@@ -2299,7 +2415,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
 >>>>>>> Stashed changes
@@ -2359,7 +2479,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.tilemap@1.0.0
 >>>>>>> Stashed changes
@@ -2415,7 +2539,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.ui@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.ui@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.ui@1.0.0
 >>>>>>> Stashed changes
@@ -2467,7 +2595,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.uielements@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.uielements@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.uielements@1.0.0
 >>>>>>> Stashed changes
@@ -2535,7 +2667,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.umbra@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.umbra@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.umbra@1.0.0
 >>>>>>> Stashed changes
@@ -2587,7 +2723,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
 >>>>>>> Stashed changes
@@ -2647,7 +2787,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
 >>>>>>> Stashed changes
@@ -2699,7 +2843,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
 >>>>>>> Stashed changes
@@ -2759,7 +2907,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
 >>>>>>> Stashed changes
@@ -2819,7 +2971,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
 >>>>>>> Stashed changes
@@ -2879,7 +3035,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
 >>>>>>> Stashed changes
@@ -2955,7 +3115,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.vehicles@1.0.0
 >>>>>>> Stashed changes
@@ -3011,7 +3175,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.video@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.video@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.video@1.0.0
 >>>>>>> Stashed changes
@@ -3075,7 +3243,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.vr@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.vr@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.vr@1.0.0
 >>>>>>> Stashed changes
@@ -3141,7 +3313,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.wind@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.wind@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.wind@1.0.0
 >>>>>>> Stashed changes
@@ -3193,7 +3369,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.xr@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.xr@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.xr@1.0.0
 >>>>>>> Stashed changes
@@ -3257,7 +3437,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.subsystems@1.0.0
 >>>>>>> Stashed changes
@@ -3313,7 +3497,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
 >>>>>>> Stashed changes
@@ -3376,7 +3564,11 @@ m_PackageAssets:
       version: 1.0.6
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ext.nunit@1.0.6
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.ext.nunit@1.0.6
 >>>>>>> Stashed changes
@@ -3443,7 +3635,11 @@ m_PackageAssets:
       version: 1.0.3
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.settings-manager@1.0.3
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.settings-manager@1.0.3
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.settings-manager@1.0.3
 >>>>>>> Stashed changes
@@ -3509,7 +3705,11 @@ m_PackageAssets:
       version: 2.0.0
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
 >>>>>>> Stashed changes
@@ -3591,7 +3791,11 @@ m_PackageAssets:
       version: 1.0.1
       source: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       resolvedPath: D:\Proyectos\Github\Paranoid\Library\PackageCache\com.unity.services.core@1.0.1
+=======
+      resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.services.core@1.0.1
+>>>>>>> Stashed changes
 =======
       resolvedPath: C:\Users\b15-01t\Desktop\Proyectos Unity\TrailerParanoid_Proj\Library\PackageCache\com.unity.services.core@1.0.1
 >>>>>>> Stashed changes
@@ -3663,7 +3867,11 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 m_ProjectPath: D:/Proyectos/Github/Paranoid/Packages
+=======
+m_ProjectPath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages
+>>>>>>> Stashed changes
 =======
 m_ProjectPath: C:/Users/b15-01t/Desktop/Proyectos Unity/TrailerParanoid_Proj/Packages
 >>>>>>> Stashed changes
