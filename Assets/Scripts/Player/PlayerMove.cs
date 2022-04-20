@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody rb;
-    private Transform cam;
+    private Transform _cam;
     private Vector3 scaleNormal, scaleCrouching;
     private GameObject rightHand;
 
@@ -99,8 +99,9 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
-        //cam = transform.GetChild(0);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        _cam = transform.GetChild(0);
         //anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         //rightHand = GameObject.Find("RightHand");
@@ -130,10 +131,15 @@ public class PlayerMove : MonoBehaviour
         Vector3 dir = new Vector3(_x, 0, _y);
         transform.Translate(dir.normalized * _space);
 
+        if (Input.GetKeyDown(KeyCode.Space) && CanJump)
+        {
+            rb.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
+        }
+
         RotationHead -= _mouseY;
         transform.rotation *= Quaternion.Euler(0, _mouseX, 0);
         RotationHead = Mathf.Clamp(RotationHead, -50f, 50f);
-        //cam.localRotation = Quaternion.Euler(RotationHead, 0, 0);
+        _cam.localRotation = Quaternion.Euler(RotationHead, 0, 0);
         //rightHand.transform.localRotation = Quaternion.Euler(RotationHead, 0, 0);
 
         transform.localScale = Vector3.Lerp(transform.localScale, Crouching ? scaleCrouching : scaleNormal, 0.1f);
