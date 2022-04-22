@@ -1,0 +1,15 @@
+modelaje:
+Subdividido en:
+ -Modelaje de la cara: 2-3 días
+ -Modelaje del cuerpo: 2-3 días
+ -Modelaje de los brazos: 1-2 día/s
+ -Modelaje de las manos: 1-2 día/s
+ -Modelaje de las piernas: 1-2 día/s
+ -Modelaje de los pies: 1-2 día/s
+ -Modelaje de la ropa: 2-3 días
+ -Modelaje de las zapatillas: 1-2 día/s
+ -Modelaje de los rasgos físicos: 1-2 día/s
+ -Modelaje de las características faciales(seguramente simplificado: 1 día
+ -Color del modelaje: 2-3 día/s si lo hacemos con texturas guays o 1 día si son con colores simples.
+Si me falta algo por el camino ya te lo haré saber para que lo añadas al calendario. Por ahora esto.
+ 

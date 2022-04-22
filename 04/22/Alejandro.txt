@@ -1,0 +1,4 @@
+Se encargará de realizar las ventanas de los edificios.
+	-> Una vez tengamos los edificios realizados.
+Se encargará de colocar los huesos al enemigo.
+	-> Una vez te lo diga Laura.

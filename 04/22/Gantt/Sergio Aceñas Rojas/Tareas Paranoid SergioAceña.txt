@@ -1,0 +1,21 @@
+Sergio Aceña Rojas
+
+Diseño del mundo:
+
+Trabajo sobre el Edificio B (Principal del juego)
+
+Tarea 1: Creación de prefabs de aulas/interiores (1sem)
+
+Tarea 2: Creación de baños/posicionar prefabs en el edificio (0.5sem, depende de tarea 1)
+
+Tarea 3: Arreglo escaleras/Arreglo de texturas e iluminación (0.5sem, depende de tarea 1 y 2)
+
+Tarea 4: Upgrade de texturas/materiales/shaders (1 sem, no depende de nada)
+
+Tarea 5: Adición de clips de audio e iluminación exterior (1sem si me proporcionan los assets, no depende de nada)
+
+Tarea 6: Poblar exteriores del instituto, patios y pistas (1 sem, depende de la tarea 5)
+
+Tarea 7: Creación de edificio A-C y poblarlos (2-3sem, depende de tareas 1,2,3,4 y 6)
+
+Tarea 8: Creacion Gimnasio y poblar con assets (1-2sem, depende de tarea 6)

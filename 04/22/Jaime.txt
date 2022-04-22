@@ -1,0 +1,3 @@
+Terminando de programar la IA del enemigo.
+Terminando de programar los ajustes que se podrán cambiar desde el menú de juego.
+Hay un error leve en el movimiento del jugador, es al agacharse, se arreglará de lo último.
