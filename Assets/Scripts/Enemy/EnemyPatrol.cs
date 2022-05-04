@@ -19,7 +19,7 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, _referenceToMoveB[4].position, 0.001f);
+        transform.position = Vector3.Lerp(transform.position, _referenceToMoveB[1].position, 0.02f);
     }
 
     private void InitParameters()
