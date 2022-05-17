@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyFollowPlayer : MonoBehaviour
 {
     private Transform _player;
-    private NavMeshAgent _agent;
     private Animator _animator;
     private bool _vision, _limitProximity;
     private float _radioVision, _radioProximity, _speed, _distance;
@@ -15,24 +14,29 @@ public class EnemyFollowPlayer : MonoBehaviour
     void Start()
     {
         _player = GameObject.Find("Player").GetComponent<Transform>();
-        _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
         InitParameters();
+        Debug.Log("Aqui follow");
     }
 
     // Update is called once per frame
     void Update()
     {
+        Follow();
+    }
+
+    void Follow()
+    {
         if (Vector3.Distance(_player.position, transform.position) < _distance)
         {
-            _agent.SetDestination(_player.position);
-            _agent.speed = _speed;
-            _animator.SetFloat("Speed", 0.2f);
+            transform.position = Vector3.MoveTowards(transform.position, _player.transform.position, 0.1f);
+            transform.LookAt(_player.transform);
+            _animator.SetFloat("Speed", 2f);
         }
         else
         {
-            _agent.speed = _speed * 0;
-            _animator.SetFloat("Speed", 0);
+            GetComponent<EnemyPatrolB>().enabled = true;
+            GetComponent<EnemyFollowPlayer>().enabled = false;
         }
     }
 
@@ -41,6 +45,11 @@ public class EnemyFollowPlayer : MonoBehaviour
         _radioVision = 2;
         _radioProximity = 1;
         _speed = 3;
-        _distance = 10;
+        _distance = 7;
+    }
+
+    private void OnEnable()
+    {
+        Start();
     }
 }

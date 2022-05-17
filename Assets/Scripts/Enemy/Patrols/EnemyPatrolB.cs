@@ -15,6 +15,7 @@ public class EnemyPatrolB : MonoBehaviour
         //InitParameters();
         _beforeB = 0;
         RandomDestinationEnemy();
+        Debug.Log("Aqui B");
     }
 
     public void RandomDestinationEnemy()
@@ -169,5 +170,11 @@ public class EnemyPatrolB : MonoBehaviour
             }
         } while (_referencesComplete == false);
         #endregion
+    }
+
+    private void OnEnable()
+    {
+        StopAllCoroutines();
+        Start();
     }
 }
