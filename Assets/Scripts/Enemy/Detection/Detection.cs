@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class Detection : MonoBehaviour
 {
+    public static Detection _SharedInstance;
+
+    public enum actualLocation
+    {
+        Patio,
+        A,
+        A1,
+        B
+    }
+
+    public actualLocation _actualLocation;
+
     [SerializeField] private float _distance, _angle;
     [SerializeField] private LayerMask _targetLayers, _obstacleLayers;
     [SerializeField] private Collider _detectedTarget;
@@ -12,7 +24,7 @@ public class Detection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -61,5 +73,11 @@ public class Detection : MonoBehaviour
         Gizmos.DrawRay(transform.position, rightDirection * _distance);
         Vector3 leftDirection = Quaternion.Euler(0, -_angle, 0) * transform.forward;
         Gizmos.DrawRay(transform.position, leftDirection * _distance);
+    }
+
+    public void EnemyInPatio()
+    {
+        GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+        
     }
 }
