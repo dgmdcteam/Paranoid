@@ -20,6 +20,7 @@ public class Detection : MonoBehaviour
     [SerializeField] private LayerMask _targetLayers, _obstacleLayers;
     [SerializeField] private Collider _detectedTarget;
     [SerializeField] private Collider[] _colliders;
+    public string locationBeforeFollow;
 
     // Start is called before the first frame update
     void Start()
@@ -51,8 +52,7 @@ public class Detection : MonoBehaviour
                     Debug.DrawLine(transform.position, collider.bounds.center, Color.green);
                     // Guardamos la referencia del objetivo detectado
                     _detectedTarget = collider;
-                    GetComponent<EnemyPatrolB>().enabled = false;
-                    GetComponent<EnemyFollowPlayer>().enabled = true;
+                    EnemyFollow();
                     break;
                 }
                 else
@@ -75,9 +75,38 @@ public class Detection : MonoBehaviour
         Gizmos.DrawRay(transform.position, leftDirection * _distance);
     }
 
-    public void EnemyInPatio()
+    public void EnemyFollow()
     {
         GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
-        
+        GetComponent<EnemyFollowPlayer>().enabled = true;
+        //GetComponent<EnemyPatrolPatio>().enabled = GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+    }
+
+    public void ChangeEnabledPatrols(string _location)
+    {
+        switch (_location)
+        {
+            case "Patio":
+                //GetComponent<EnemyPatrolPatio>().enabled = true;
+                //GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+                break;
+
+            case "B":
+                GetComponent<EnemyPatrolB>().enabled = true;
+                //GetComponent<EnemyPatrolPatio>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+                break;
+
+            case "A":
+                GetComponent<EnemyPatrolA>().enabled = true;
+                //GetComponent<EnemyPatrolPatio>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+                break;
+
+            case "A1":
+                //GetComponent<EnemyPatrolA1>().enabled = true;
+                //GetComponent<EnemyPatrolPatio>().enabled = GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolC>().enabled = false;
+                break;
+        }
+
+        locationBeforeFollow = _location;
     }
 }

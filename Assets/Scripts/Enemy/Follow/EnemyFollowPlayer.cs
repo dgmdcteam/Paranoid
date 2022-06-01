@@ -9,6 +9,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     private Animator _animator;
     private bool _vision, _limitProximity;
     private float _radioVision, _radioProximity, _speed, _distance;
+    string x;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class EnemyFollowPlayer : MonoBehaviour
         }
         else
         {
-            GetComponent<EnemyPatrolB>().enabled = true;
+            Detection._SharedInstance.ChangeEnabledPatrols(Detection._SharedInstance.locationBeforeFollow);
             GetComponent<EnemyFollowPlayer>().enabled = false;
         }
     }
