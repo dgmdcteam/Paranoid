@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody rb;
-    private Transform cam;
+    private Transform _cam;
     private Vector3 scaleNormal, scaleCrouching;
     private GameObject rightHand;
 
@@ -41,6 +42,9 @@ public class PlayerMove : MonoBehaviour
 
     private float _x, _y, _space, _speedMovement, angle, _mouseX, _mouseY;
     private bool _canJump, _crouching;
+    private int contCr;
+
+    public bool death = false;
 
     public Animator Anim
     {
@@ -99,8 +103,9 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
-        //cam = transform.GetChild(0);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        _cam = transform.GetChild(0);
         //anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         //rightHand = GameObject.Find("RightHand");
@@ -110,33 +115,57 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _x = Input.GetAxis("Horizontal");
-        _y = Input.GetAxis("Vertical");
-        _mouseX = Input.GetAxis("Mouse X") * SensibilityMouse;
-        _mouseY = Input.GetAxis("Mouse Y") * SensibilityMouse;
-        Crouching = Input.GetKey(KeyCode.LeftControl) ? Crouching = true : Crouching = false;
-
-        if (Crouching)
+        if (PlayerNotes._SharedInstance.allNotes == false && death == false)
         {
-            _speedMovement = 2f;
+            _x = Input.GetAxis("Horizontal");
+            _y = Input.GetAxis("Vertical");
+            _mouseX = Input.GetAxis("Mouse X") * SensibilityMouse;
+            _mouseY = Input.GetAxis("Mouse Y") * SensibilityMouse;
+            Crouching = Input.GetKey(KeyCode.LeftControl) ? Crouching = true : Crouching = false;
+
+            if (Crouching)
+            {
+                _speedMovement = 2f;
+                StartCoroutine(ToCrouching());
+            }
+            else
+            {
+                _speedMovement = Input.GetKey(KeyCode.LeftShift) ? SpeedMovementRun : SpeedMovementWalk;
+                if (contCr > 0)
+                {
+                    StartCoroutine(ToUp());
+                }
+            }
+            _space = _speedMovement * Time.deltaTime;
+            rb.velocity = transform.forward * _space * _y + transform.right * _space * _x + new Vector3(0, rb.velocity.y, 0);
+
+            Vector3 dir = new Vector3(_x, 0, _y);
+            transform.Translate(dir.normalized * _space);
+
+            if (Input.GetKeyDown(KeyCode.Space) && CanJump)
+            {
+                rb.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
+            }
+
+            RotationHead -= _mouseY;
+            transform.rotation *= Quaternion.Euler(0, _mouseX, 0);
+            RotationHead = Mathf.Clamp(RotationHead, -50f, 50f);
+            _cam.localRotation = Quaternion.Euler(RotationHead, 0, 0);
+            //rightHand.transform.localRotation = Quaternion.Euler(RotationHead, 0, 0);
+
+            //transform.localScale = Vector3.Lerp(transform.localScale, Crouching ? scaleCrouching : scaleNormal, 0.1f);
         }
-        else
+
+        if (death == true)
         {
-            _speedMovement = Input.GetKey(KeyCode.LeftShift) ? SpeedMovementRun : SpeedMovementWalk;
+            SceneManager.LoadScene(3);
         }
-        _space = _speedMovement * Time.deltaTime;
-        rb.velocity = transform.forward * _space * _y + transform.right * _space * _x + new Vector3(0, rb.velocity.y, 0);
 
-        Vector3 dir = new Vector3(_x, 0, _y);
-        transform.Translate(dir.normalized * _space);
+        if (PlayerNotes._SharedInstance.allNotes == true)
+        {
+            SceneManager.LoadScene(2);
+        }
 
-        RotationHead -= _mouseY;
-        transform.rotation *= Quaternion.Euler(0, _mouseX, 0);
-        RotationHead = Mathf.Clamp(RotationHead, -50f, 50f);
-        //cam.localRotation = Quaternion.Euler(RotationHead, 0, 0);
-        //rightHand.transform.localRotation = Quaternion.Euler(RotationHead, 0, 0);
-
-        transform.localScale = Vector3.Lerp(transform.localScale, Crouching ? scaleCrouching : scaleNormal, 0.1f);
     }
 
     private void InicialiacionValores()
@@ -145,12 +174,34 @@ public class PlayerMove : MonoBehaviour
         scaleCrouching = scaleNormal;
         scaleCrouching.y = scaleNormal.y * 0.75f;
         SpeedMovementWalk = 3.0f;
-        SpeedMovementRun = 5.0f;
+        SpeedMovementRun = 10.0f;
         SpeedRotation = 8.0f;
         JumpForce = 5.0f;
         RotationHead = transform.rotation.x;
         SensibilityMouse = 5.0f;
         CanJump = false;
         Crouching = false;
+    }
+
+    IEnumerator ToCrouching()
+    {
+        GetComponent<Animator>().SetBool("ToCrouching", true);
+        yield return new WaitForSeconds(0.5f);
+        if (Crouching)
+        {
+            GetComponent<Animator>().SetBool("Crouching", true);
+        }
+        
+        contCr = 1;
+    }
+
+    IEnumerator ToUp()
+    {
+        GetComponent<Animator>().SetBool("ToCrouching", false);
+        GetComponent<Animator>().SetBool("Crouching", false);
+        GetComponent<Animator>().SetBool("ToUp", true);
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<Animator>().SetBool("ToUp", false);
+        contCr = 0;
     }
 }
