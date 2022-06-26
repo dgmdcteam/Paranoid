@@ -158,11 +158,15 @@ public class PlayerMove : MonoBehaviour
 
         if (death == true)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene(3);
         }
 
         if (PlayerNotes._SharedInstance.allNotes == true)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene(2);
         }
 

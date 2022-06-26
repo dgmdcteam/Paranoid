@@ -22,6 +22,9 @@ public class Detection : MonoBehaviour
     [SerializeField] private Collider[] _colliders;
     public string locationBeforeFollow;
 
+    public bool beforeFollow;
+    public int contBefore = 0;
+
     private void Awake()
     {
         if (_SharedInstance != null)
@@ -79,6 +82,18 @@ public class Detection : MonoBehaviour
         {
             GetComponent<EnemyFollowPlayer>().enabled = GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolPatio>().enabled = false;
         }
+
+
+    }
+
+    public void ReturnLocation()
+    {
+        if (beforeFollow == false && contBefore == 1 && GetComponent<EnemyFollowPlayer>().enabled == false)
+        {
+            contBefore = 0;
+            beforeFollow = true;
+            ChangeEnabledPatrols(locationBeforeFollow);
+        }
     }
 
     private void OnDrawGizmos()
@@ -95,8 +110,12 @@ public class Detection : MonoBehaviour
 
     public void EnemyFollow()
     {
-        GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolPatio>().enabled = false;
-        GetComponent<EnemyFollowPlayer>().enabled = true;
+        if (contBefore == 0)
+        {
+            beforeFollow = GetComponent<EnemyPatrolB>().enabled = GetComponent<EnemyPatrolA>().enabled = GetComponent<EnemyPatrolA1>().enabled = GetComponent<EnemyPatrolPatio>().enabled = false;
+            contBefore++;
+            GetComponent<EnemyFollowPlayer>().enabled = true;
+        }
     }
 
     public void ChangeEnabledPatrols(string _location)

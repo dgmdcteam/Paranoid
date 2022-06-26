@@ -7,7 +7,7 @@ public class EnemyFollowPlayer : MonoBehaviour
 {
     private Transform _player;
     private Animator _animator;
-    private bool _vision, _limitProximity, _attack;
+    private bool _vision, _limitProximity, _attack, _follow;
     private float _radioVision, _radioProximity, _speed, _distance;
     string x;
     public GameObject attack;
@@ -34,6 +34,12 @@ public class EnemyFollowPlayer : MonoBehaviour
             Attack();
         }
 
+        if (_follow == false && _attack == false)
+        {
+            GetComponent<EnemyFollowPlayer>().enabled = false;
+            Detection._SharedInstance.ReturnLocation();
+        }
+
     }
 
     void Follow()
@@ -48,12 +54,13 @@ public class EnemyFollowPlayer : MonoBehaviour
                 if (Vector3.Distance(_player.position, transform.position) < 1.5)
                 {
                     _attack = true;
+                    _follow = false;
                 }
+                _follow = true;
             }
             else
             {
-                //Detection._SharedInstance.ChangeEnabledPatrols(Detection._SharedInstance.locationBeforeFollow);
-                GetComponent<EnemyFollowPlayer>().enabled = false;
+                _follow = false;
             }
         }
 
@@ -71,6 +78,7 @@ public class EnemyFollowPlayer : MonoBehaviour
         {
             attack.SetActive(false);
             _attack = false;
+            _follow = true;
             _animator.SetBool("Attack", false);
         }
     }
@@ -80,7 +88,7 @@ public class EnemyFollowPlayer : MonoBehaviour
         _radioVision = 2;
         _radioProximity = 1;
         _speed = 3;
-        _distance = 7;
+        _distance = 12;
     }
 
     private void OnEnable()
